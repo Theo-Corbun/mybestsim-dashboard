@@ -1,0 +1,23 @@
+# ==============================================================================
+# DEPENDANCES DU PROJET MYBESTSIM DASHBOARD
+# ==============================================================================
+# Pre-requis : Python 3.10 ou version superieure
+# Telechargement officiel de Python : https://www.python.org/downloads/
+# Documentation officielle de pip : https://pip.pypa.io/en/stable/installation/
+#
+# Commande d'installation recommandee (sans compilation C++) :
+# pip install --only-binary=:all: -r requirements.txt
+# ==============================================================================
+
+
+# 1. Manipulation, nettoyage et agregation des fichiers CSV
+# Site officiel et documentation : https://pandas.pydata.org/docs/
+# Alternative en cas d'erreur : module standard 'csv' integre a Python ou Polars (https://pola.rs/)
+pandas>=2.1.0
+
+
+# 2. Framework d'interface web interactive et hebergement Cloud
+# Site officiel et documentation : https://docs.streamlit.io/
+# Plateforme de mise en ligne gratuite : https://share.streamlit.io/
+# Alternative en cas d'erreur : Dash (https://dash.plotly.com/) ou Flask (https://flask.palletsprojects.com/)
+streamlit>=1.32.0
